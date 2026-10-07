@@ -1,22 +1,20 @@
-# Báo cáo Day 6: [ĐIỀN tên đề tài ngắn]
+# Báo cáo Day 6: Phát hiện vật cản từ LiDAR không dùng deep learning (voxel → RANSAC → DBSCAN)
 
 > Thay **mọi** ô có chữ ĐIỀN nằm trong ngoặc vuông bằng nội dung của bạn, xoá luôn cả dấu ngoặc vuông. Lệnh `python tools/check_submission.py` sẽ báo FAIL nếu còn sót bất kỳ chỗ nào.
 
-- **Họ tên:** [ĐIỀN]
-- **MSSV:** [ĐIỀN] (phải trùng với MSSV trong tên repo `<HoVaTen>-<MSSV>-Track4-Day21`)
+- **Họ tên:** Phạm Minh Hiếu
+- **MSSV:** 2A202602630
 - **Lớp:** [ĐIỀN]
-- **Link repo:** [ĐIỀN]
-- **Topic:** [ĐIỀN một chữ cái A/B/C/D/E/F] — [ĐIỀN tên topic]
-- **Dataset:** [ĐIỀN một hoặc nhiều trong: data/synthetic, data/kitti_mini, data/nuscenes_mini_subset, log riêng]
-- **Các frame đã dùng:** [ĐIỀN danh sách frame id, ví dụ 000011, 000049 hoặc scene-0103_010]
+- **Link repo:** https://github.com/hieulovecat/PhamMinhHieu-2A202602630--Track4-Day21
+- **Topic:** D — Robot/drone obstacle
+- **Dataset:** data/kitti_mini (thí nghiệm chính), data/synthetic (debug)
+- **Các frame đã dùng:** toàn bộ 20 frame của kitti_mini (000001 … 000061); demo chính 000011
 
 > Hãy viết ngắn: mỗi mục từ 3 đến 8 dòng, ưu tiên số liệu và hình ảnh.
 
 ## 1. Claim
 
-Một câu khẳng định kỹ thuật có thể kiểm chứng. Ví dụ: *"Lệch yaw 1° làm 12% điểm LiDAR rơi ra khỏi vật thể ở 30 m, phát hiện được bằng edge-alignment score với ngưỡng X."*
-
-[ĐIỀN]
+*(Claim nháp CP1, sẽ cập nhật bằng số liệu ở CP3)*: Trên 20 frame KITTI, tăng `distance_threshold` của RANSAC ground từ 0.1 m lên 0.3 m làm recall phát hiện Pedestrian/Cyclist (vật thấp, mảnh) giảm ít nhất 10 điểm %, trong khi recall của Car gần như không đổi.
 
 ## 2. Evidence
 
