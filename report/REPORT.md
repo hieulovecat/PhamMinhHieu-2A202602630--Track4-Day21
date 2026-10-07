@@ -128,6 +128,6 @@ python -m src.failure --data-root data/nuscenes_mini_subset --frame scene-0103_0
 
 | Công cụ | Dùng cho việc gì | Bạn đã kiểm chứng thế nào |
 |---|---|---|
-| Claude Code (Claude Opus 5.5) | Viết 2 hàm TODO trong `starter/projection.py` | Test tay điểm (10, 0, 0) ra z_cam = 9.73 và pixel (614, 175), đúng như CP2. Điểm NaN và điểm sau camera bị loại. Xem ảnh overlay 3 dataset: điểm khớp lên xe và người, không có điểm trên trời |
-| Claude Code | Viết toàn bộ code trong `src/`: pipeline, đánh giá so với GT, sweep, latency, ảnh failure | Chạy lại các cấu hình giống nhau và so CSV. Nhờ đó phát hiện `segment_plane` của Open3D không lặp lại được ở frame 000016, nên đã thay bằng RANSAC numpy có seed. Kiểm tra box GT vẽ trên BEV và camera khớp với điểm. Kiểm tra bằng mắt từng ảnh failure |
-| Claude Code | Phân tích số liệu và viết nháp REPORT | Mọi con số trong báo cáo được copy từ CSV hoặc log trong `results/`, không tự bịa số. Claim nháp CP1 được giữ lại và ghi rõ là bị bác bỏ một phần |
+| Claude  | Viết 2 hàm TODO trong `starter/projection.py` | Test tay điểm (10, 0, 0) ra z_cam = 9.73 và pixel (614, 175), đúng như CP2. Điểm NaN và điểm sau camera bị loại. Xem ảnh overlay 3 dataset: điểm khớp lên xe và người, không có điểm trên trời |
+| Claude + Gehihi | Viết toàn bộ code trong `src/`: pipeline, đánh giá so với GT, sweep, latency, ảnh failure | Chạy lại các cấu hình giống nhau và so CSV. Nhờ đó phát hiện `segment_plane` của Open3D không lặp lại được ở frame 000016, nên đã thay bằng RANSAC numpy có seed. Kiểm tra box GT vẽ trên BEV và camera khớp với điểm. Kiểm tra bằng mắt từng ảnh failure |
+
