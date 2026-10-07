@@ -1,0 +1,17 @@
+sweep,voxel_size,distance_threshold,eps,min_points,ransac_iters,min_range,max_range,seed,frame,reps,p50_ms,p95_ms,crop_ms_p50,voxel_ms_p50,ground_ms_p50,cluster_ms_p50,box_ms_p50,cpu,python
+baseline,0.1,0.15,0.5,5,200,2.0,40.0,0,000011,20,346.601,408.305,23.533,33.874,147.315,101.313,33.596,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+distance_threshold,0.1,0.05,0.5,5,200,2.0,40.0,0,000011,20,329.83,431.869,20.027,31.285,125.813,110.891,40.974,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+distance_threshold,0.1,0.1,0.5,5,200,2.0,40.0,0,000011,20,316.318,427.838,19.789,31.766,130.123,99.547,36.78,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+distance_threshold,0.1,0.15,0.5,5,200,2.0,40.0,0,000011,20,300.181,396.439,21.659,31.389,125.834,95.062,31.237,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+distance_threshold,0.1,0.2,0.5,5,200,2.0,40.0,0,000011,20,298.259,498.853,21.459,29.089,123.719,95.873,30.332,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+distance_threshold,0.1,0.3,0.5,5,200,2.0,40.0,0,000011,20,290.992,398.15,21.213,30.877,124.627,89.716,28.776,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+distance_threshold,0.1,0.5,0.5,5,200,2.0,40.0,0,000011,20,292.268,432.383,21.168,30.387,129.748,79.686,28.797,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+voxel_size,0.05,0.15,0.5,5,200,2.0,40.0,0,000011,20,595.292,797.08,21.475,57.331,162.569,315.825,56.47,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+voxel_size,0.1,0.15,0.5,5,200,2.0,40.0,0,000011,20,331.824,453.707,25.07,32.962,140.351,99.956,31.842,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+voxel_size,0.2,0.15,0.5,5,200,2.0,40.0,0,000011,20,183.889,341.5,23.026,18.406,103.753,25.875,17.527,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+voxel_size,0.3,0.15,0.5,5,200,2.0,40.0,0,000011,20,154.359,227.944,22.135,11.833,93.595,13.298,14.716,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+voxel_size,0.4,0.15,0.5,5,200,2.0,40.0,0,000011,20,133.599,198.24,22.412,10.981,83.566,7.087,10.855,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+eps,0.1,0.15,0.3,5,200,2.0,40.0,0,000011,20,286.196,361.993,19.449,28.479,126.024,64.766,45.669,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+eps,0.1,0.15,0.5,5,200,2.0,40.0,0,000011,20,300.785,527.258,20.121,29.824,128.758,95.383,30.763,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+eps,0.1,0.15,0.8,5,200,2.0,40.0,0,000011,20,356.03,768.418,25.489,30.492,126.161,163.199,21.02,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7
+eps,0.1,0.15,1.2,5,200,2.0,40.0,0,000011,20,490.965,729.146,21.82,32.749,136.275,279.209,20.183,"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",3.11.7

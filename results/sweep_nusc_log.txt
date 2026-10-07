@@ -1,0 +1,24 @@
+[baseline          ] v=0.1   dt=0.15  eps=0.5  recall car=0.94 ped=0.87 cyc=0.80 cover ped=0.94 ret ped=0.96 clusters=226.1 prec_fov=0.15
+[distance_threshold] v=0.1   dt=0.05  eps=0.5  recall car=0.89 ped=0.71 cyc=1.00 cover ped=0.94 ret ped=0.98 clusters=243.4 prec_fov=0.13
+[distance_threshold] v=0.1   dt=0.1   eps=0.5  recall car=0.93 ped=0.77 cyc=1.00 cover ped=0.94 ret ped=0.97 clusters=234.0 prec_fov=0.14
+[distance_threshold] v=0.1   dt=0.15  eps=0.5  recall car=0.94 ped=0.87 cyc=0.80 cover ped=0.94 ret ped=0.96 clusters=226.1 prec_fov=0.15
+[distance_threshold] v=0.1   dt=0.2   eps=0.5  recall car=0.95 ped=0.87 cyc=0.80 cover ped=0.94 ret ped=0.93 clusters=216.5 prec_fov=0.16
+[distance_threshold] v=0.1   dt=0.3   eps=0.5  recall car=0.95 ped=0.90 cyc=0.80 cover ped=0.94 ret ped=0.87 clusters=205.6 prec_fov=0.15
+[distance_threshold] v=0.1   dt=0.5   eps=0.5  recall car=0.87 ped=0.87 cyc=0.80 cover ped=0.84 ret ped=0.72 clusters=190.3 prec_fov=0.15
+[eps               ] v=0.1   dt=0.15  eps=0.3  recall car=0.68 ped=0.68 cyc=0.40 cover ped=0.39 ret ped=0.96 clusters=204.1 prec_fov=0.27
+[eps               ] v=0.1   dt=0.15  eps=0.5  recall car=0.94 ped=0.87 cyc=0.80 cover ped=0.94 ret ped=0.96 clusters=226.1 prec_fov=0.15
+[eps               ] v=0.1   dt=0.15  eps=0.8  recall car=0.95 ped=0.81 cyc=0.40 cover ped=1.00 ret ped=0.96 clusters=151.7 prec_fov=0.18
+[eps               ] v=0.1   dt=0.15  eps=1.2  recall car=0.83 ped=0.55 cyc=0.20 cover ped=1.00 ret ped=0.96 clusters=91.7 prec_fov=0.22
+đo latency trên frame scene-0103_010: 20 vòng x 11 cấu hình ...
+[baseline          ] v=0.1   dt=0.15  eps=0.5  p50=106.1ms p95=122.4ms
+[distance_threshold] v=0.1   dt=0.05  eps=0.5  p50=112.4ms p95=132.5ms
+[distance_threshold] v=0.1   dt=0.1   eps=0.5  p50=106.3ms p95=121.9ms
+[distance_threshold] v=0.1   dt=0.15  eps=0.5  p50=105.0ms p95=126.4ms
+[distance_threshold] v=0.1   dt=0.2   eps=0.5  p50=103.5ms p95=115.3ms
+[distance_threshold] v=0.1   dt=0.3   eps=0.5  p50=100.0ms p95=117.0ms
+[distance_threshold] v=0.1   dt=0.5   eps=0.5  p50=98.9ms p95=125.8ms
+[eps               ] v=0.1   dt=0.15  eps=0.3  p50=100.4ms p95=119.6ms
+[eps               ] v=0.1   dt=0.15  eps=0.5  p50=101.1ms p95=142.0ms
+[eps               ] v=0.1   dt=0.15  eps=0.8  p50=111.5ms p95=152.1ms
+[eps               ] v=0.1   dt=0.15  eps=1.2  p50=112.9ms p95=173.4ms
+-> results/obstacle_sweep_nusc.csv, latency_nusc.csv, figures/sweep_*_nusc.png
